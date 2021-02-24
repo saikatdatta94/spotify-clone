@@ -1,0 +1,35 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login > img{
+    width: 100%;
+}
+
+.login > a{
+    background-color: #15883e;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 16px 48px 18px;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.login > a:hover{
+    background-color: #1ed760;
+    text-decoration: none;
+}
+
+.login > a:visited{
+    text-decoration: none;
+}
